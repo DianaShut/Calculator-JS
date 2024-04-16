@@ -4,7 +4,7 @@ const specialChars = ["%", "*", "/", "-", "+", "="];
 let output = "";
 
 const calculate = (btnValue) => {
-    display.focus();
+    // display.focus();
     if (btnValue === "=" && output !== "") {
         output = eval(output.replace("%", "/100"));
     } else if (btnValue === "AC") {
@@ -21,6 +21,5 @@ const calculate = (btnValue) => {
 
 buttons.forEach((button) => {
     button.addEventListener("click", (e) =>
-        e.preventDefault();
         calculate(e.target.dataset.value));
 });
