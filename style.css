@@ -31,7 +31,8 @@ body{
     background: rgba(255, 255, 255, 0.30);
     border: 1px solid rgba(255, 255, 255, 0.34);
     flex-basis: 400px;
-    width: 80vw;
+    margin-left: 10px;
+    margin-right: 10px;
     height: 540px;
     padding: 20px 35px;
 }
